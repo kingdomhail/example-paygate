@@ -1,7 +1,7 @@
+require('dotenv').config()
 const walletAgentCode = process.env.AGENT_CODE;
 const walletPublicKey = process.env.TIMEBIT_OTC_PUBLIC_KEY
 const walletPrivateKey = process.env.PRIVATE_KEY
-
 const urlApi = process.env.URL_API;
 const axios = require("axios")
 const crypto = require("crypto");
